@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" font-family="Manrope, Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="1200" height="370" fill="#F5EFE4"/>
+<text x="40" y="44" font-family="Fraunces, Georgia, serif" font-size="26" fill="#1A1512">HPF PhotoFlow</text>
+<text x="40" y="68" font-size="12" letter-spacing="2.2" fill="#866435">ARCHITECTURE · SIMPLIFIED</text>
+<text x="40.0" y="108" font-size="11" letter-spacing="1.8" fill="#6B5F52">CAPTURE</text>
+<rect x="40.0" y="116" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="54.0" y="142" font-size="15" font-weight="600" fill="#1A1512">Nikon camera</text>
+<text x="54.0" y="162" font-size="12" fill="#3B342D">Card import or direct reception</text>
+<rect x="40.0" y="208" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="54.0" y="234" font-size="15" font-weight="600" fill="#1A1512">Memory card</text>
+<text x="54.0" y="254" font-size="12" fill="#3B342D">Read-only, hash-verified</text>
+<text x="331.5" y="108" font-size="11" letter-spacing="1.8" fill="#6B5F52">LOCAL ENGINE</text>
+<rect x="331.5" y="116" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="345.5" y="142" font-size="15" font-weight="600" fill="#1A1512">FastAPI backend</text>
+<text x="345.5" y="162" font-size="12" fill="#3B342D">Classification, quality,</text>
+<text x="345.5" y="178" font-size="12" fill="#3B342D">annotations</text>
+<rect x="331.5" y="208" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="345.5" y="234" font-size="15" font-weight="600" fill="#1A1512">RAW engine (R&amp;D)</text>
+<text x="345.5" y="254" font-size="12" fill="#3B342D">Isolated worker, off by default</text>
+<text x="623.0" y="108" font-size="11" letter-spacing="1.8" fill="#6B5F52">STORAGE</text>
+<rect x="623.0" y="116" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="637.0" y="142" font-size="15" font-weight="600" fill="#1A1512">Patient folders</text>
+<text x="637.0" y="162" font-size="12" fill="#3B342D">Files and JSON metadata</text>
+<rect x="623.0" y="208" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="637.0" y="234" font-size="15" font-weight="600" fill="#1A1512">SQLite</text>
+<text x="637.0" y="254" font-size="12" fill="#3B342D">Studio versions, card registry</text>
+<text x="914.5" y="108" font-size="11" letter-spacing="1.8" fill="#6B5F52">OUTPUTS</text>
+<rect x="914.5" y="116" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="928.5" y="142" font-size="15" font-weight="600" fill="#1A1512">Studio UI</text>
+<text x="928.5" y="162" font-size="12" fill="#3B342D">Local web interface in a desktop</text>
+<text x="928.5" y="178" font-size="12" fill="#3B342D">shell</text>
+<rect x="914.5" y="208" width="245.5" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="928.5" y="234" font-size="15" font-weight="600" fill="#1A1512">Exports</text>
+<text x="928.5" y="254" font-size="12" fill="#3B342D">PDF plans, boards, anonymised sets</text>
+<line x1="291.5" y1="199.0" x2="321.5" y2="199.0" stroke="#866435" stroke-width="1.4"/>
+<path d="M321.5,194.0 L329.5,199.0 L321.5,204.0 Z" fill="#866435"/>
+<line x1="583.0" y1="199.0" x2="613.0" y2="199.0" stroke="#866435" stroke-width="1.4"/>
+<path d="M613.0,194.0 L621.0,199.0 L613.0,204.0 Z" fill="#866435"/>
+<line x1="874.5" y1="199.0" x2="904.5" y2="199.0" stroke="#866435" stroke-width="1.4"/>
+<path d="M904.5,194.0 L912.5,199.0 L904.5,204.0 Z" fill="#866435"/>
+<text x="40" y="344" font-size="12" fill="#6B5F52">Everything runs on the clinic workstation. The server listens on the local loopback only.</text>
+</svg>
