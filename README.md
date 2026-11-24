@@ -1,14 +1,16 @@
 # HPF PhotoFlow
 
+<img src="assets/cover.png" alt="HPF PhotoFlow" width="100%">
+
 > Clinical photography without friction: from the Nikon camera to a classified, annotated protocol.
 
-**Dental photography workflow** · In daily use · Clinical & Patient Experience  
-**Source code** · proprietary and private: this repository is documentation only.
+**Status** · In use &nbsp;·&nbsp; **Area** · Clinical & Patient Experience &nbsp;·&nbsp; **Source code** · private, documentation only
 
-## My role
+### At a glance
 
-Product design and development.  
-The project started from clinical photography at the dental chair.
+- Every shot filed under the right patient and view, never guessed.
+- Originals never modified; annotations stay separate layers.
+- Runs entirely on the clinic workstation, no cloud.
 
 ## The problem
 
@@ -18,6 +20,11 @@ Building a complete, correctly attributed photo protocol takes time, and a photo
 ## The solution
 
 A fully local clinical photo assistant that files each shot under the right patient and view, then produces annotated boards and anonymised exports.
+
+## My role
+
+Product design and development.  
+The project started from clinical photography at the dental chair.
 
 ## Key features
 
@@ -31,14 +38,14 @@ A fully local clinical photo assistant that files each shot under the right pati
 
 ## Screenshots
 
-No screenshot is published: every real screen of this tool would show clinical or case data.
+No screenshot is published: every real screen of this tool would show clinical or case data.  
 The simplified architecture below shows how it is built.
 
 ## Technologies
 
 Python · FastAPI · Pillow · NumPy · ONNX Runtime · WeasyPrint · SQLite · PyInstaller
 
-## Architecture (simplified)
+## Architecture
 
 ![Simplified architecture of HPF PhotoFlow](assets/architecture.svg)
 
@@ -48,7 +55,7 @@ Python · FastAPI · Pillow · NumPy · ONNX Runtime · WeasyPrint · SQLite · 
 
 ## Development status
 
-- Version 1.7.0-rc.20 installed and in daily use on the clinic workstation.
+- Version 1.7.0-rc.20 installed and in use on the clinic workstation.
 - Test matrix of 297 test scripts; the last fully green CI run covered 285 scripts and 7,691 assertions.
 - Nikon RAW engine: R&D prototype, about 6.75 s per RAW file on the bench, byte-identical re-renders, colour fidelity not measured and not claimed.
 - Real hardware acceptance tests of the RAW engine and of the iPhone sync are still to do.
@@ -60,10 +67,10 @@ Python · FastAPI · Pillow · NumPy · ONNX Runtime · WeasyPrint · SQLite · 
 - Anonymised export blurs the eyes, and the documentation states it is not an absolute guarantee.
 - Optional iPhone sync is encrypted, paired by single-use code and locked by default.
 - The source code of HPF PhotoFlow is proprietary and kept in a private repository.
-- This repository contains documentation and demonstration screenshots only: no source code, configuration, data or history from the private project.
+- This repository contains documentation and demonstration screenshots only.
 - Demonstrations can be arranged on request.
 
 ---
 
-Part of the [HPF Dental Solutions project portfolio](https://github.com/hpfdentalsolutions) · [hpfdentalsolutions.com](https://hpfdentalsolutions.com)  
+[Hugo Philippe Fusaro](https://github.com/hugophilippefusaro) · [HPF Dental Solutions](https://github.com/hpfdentalsolutions) · [hpfdentalsolutions.com](https://hpfdentalsolutions.com)  
 © 2026 Hugo Philippe Fusaro. All rights reserved on texts and images.
