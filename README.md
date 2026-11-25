@@ -1,6 +1,6 @@
 # HPF PhotoFlow
 
-<img src="assets/cover.png" alt="HPF PhotoFlow" width="100%">
+<img src="assets/cover-2.png" alt="HPF PhotoFlow" width="100%">
 
 > Clinical photography without friction: from the Nikon camera to a classified, annotated protocol.
 
